@@ -18,7 +18,7 @@ The program will output something that looks like this:
     Iteration: 10000        Win %: 0.6812   State/Action Pairs Tracked: 58263
     Iteration: 20000        Win %: 0.7395   State/Action Pairs Tracked: 102588
     Iteration: 30000        Win %: 0.7767   State/Action Pairs Tracked: 140458
-    \[...\]()
+    [...]
 
 Output is written to stdout every 10,000 episodes (completed games of Connect 4). The
 win percentage reflects the number of wins/losses for the past 10,000
