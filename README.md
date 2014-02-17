@@ -36,7 +36,7 @@ Actions on states lead to new states.
 **The action taken at a state is chosen as follows**:
 
 Of the 7 actions for a given state, the action that is
-historically the best (leads most often to a win) is given a probabilty of 0.8, the rest are each given 0.2/6. The action taken is selected randomly according to this probability mass function.
+historically the best (leads most often to a win) is given a probabilty of 0.8, the rest are each given 0.2/6. The action taken is selected randomly according to this probability mass function. If the selected action isn't possible due to that column being full, the process is repeated.
 
 A random factor is added to allow exploration of new moves which is
 necessary when few state/action pairs have been seen and in the later
