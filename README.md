@@ -11,7 +11,7 @@ To compile:
 
 To run:
 
-    ./connect5
+    ./connect4
 
 The program will output something that looks like this:
 
