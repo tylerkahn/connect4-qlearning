@@ -1,4 +1,5 @@
 #include "BoardState.h"
+#include <cstring>
 
 const char* resultToString(enum Result r) {
     switch (r) {
@@ -154,7 +155,7 @@ bool BoardState::operator==(const BoardState &other) const {
         return false;
 
     for (int i = this->rows-1; i >= 0; i--) {
-        if (std::memcmp(this->board[i], other.board[i], this->cols) != 0)
+        if (memcmp(this->board[i], other.board[i], this->cols) != 0)
             return false;
     }
 
